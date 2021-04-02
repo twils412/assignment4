@@ -16,6 +16,7 @@ Universal Styling CSS
 h1
 {
   color: white;
+  text-align: center;
 }
  .button {
    display: inline-block;
@@ -35,17 +36,28 @@ header {
   background-color: #111111;
   padding: 10px;
   width: 100vw;
+  position: fixed;
+  z-index: 999;
 }
 
 .content {
+  background-color: #333333;
+  color: white;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 10px;
+  height: 100vh;
+}
+
+main {
   background-color: #6fc9c1;
-  color: black;
 }
 
 footer {
   background-color: #111111;
   color: white;
   text-align: center;
+  z-index: 5;
 }
  /*
  -----------------------------------------
