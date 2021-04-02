@@ -13,6 +13,10 @@ Universal Styling CSS
   box-sizing: border-box;
 }
 
+h1
+{
+  color: white;
+}
  .button {
    display: inline-block;
    color: black;
@@ -33,6 +37,17 @@ header {
   position: fixed;
   width: 100vw;
 }
+
+main {
+  background-color: #6fc9c1;
+  color: black;
+}
+
+footer {
+  background-color: #111111;
+  color: white;
+  text-align: center;
+}
  /*
  -----------------------------------------
 
@@ -43,6 +58,7 @@ header {
 
   .logo {
     width: 100px;
+    margin-left: 10px;
   }
 
   nav ul li {
@@ -51,6 +67,17 @@ header {
     padding: 20px;
     margin: 10px;
     border: 10px;
-
+    
 
   }
+
+  /*
+  -----------------------------------------
+
+  Image Styling CSS
+
+  -----------------------------------------
+   */
+.homepage-image {
+  width: 200px;
+}
