@@ -14,6 +14,8 @@ Universal Styling CSS
 }
 
  .button {
+   display: inline-block;
+   color: black;
    background-color: #edc7df;
    border-radius: 6px;
    padding: 10px;
@@ -22,6 +24,7 @@ Universal Styling CSS
    text-align: center;
    margin: 20px;
    border: 4px solid black;
+   text-decoration: none;
  }
 
 header {
