@@ -34,11 +34,10 @@ h1
 header {
   background-color: #111111;
   padding: 10px;
-  position: fixed;
   width: 100vw;
 }
 
-main {
+.content {
   background-color: #6fc9c1;
   color: black;
 }
@@ -57,17 +56,23 @@ footer {
   */
 
   .logo {
-    width: 100px;
-    margin-left: 10px;
+    width: 80px;
+    margin: 5px 120px;
+    display: inline-block;
+    float: left;
   }
 
-  nav ul li {
+  nav ul a {
     display: inline;
+    text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 5px;
     margin: 10px;
     border: 10px;
-    
+
+
+
+
 
   }
 
