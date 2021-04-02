@@ -36,6 +36,7 @@ header {
   background-color: #111111;
   padding: 10px;
   width: 100vw;
+  height: 18%;
   position: fixed;
   z-index: 999;
 }
@@ -47,6 +48,7 @@ header {
   max-width: 70%;
   padding: 10px;
   height: 100vh;
+
 }
 
 main {
@@ -78,9 +80,9 @@ footer {
     display: inline;
     text-decoration: none;
     color: white;
-    padding: 5px;
-    margin: 10px;
-    border: 10px;
+
+
+
 
 
 
