@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Tyler's Homepage</title>
 
-    <link type = "text/css" rel = "stylesheet" href = "css/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/> <!-- removed spacing between equal signs -->
 
   </head>
 
@@ -15,51 +15,40 @@
 
       <nav class="menu">
         <ul>
-          <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
+          <li class="menu-item"><a href="portfolio.html">Portfolio</a>
             <ul class="sub-menu">
-              <li class="menu-item"><a href="portfolio.html">Film</a><li>
-              <li class="menu-item"><a href="portfolio.html">Writing</a><li>
-              <li class="menu-item"><a href="portfolio.html">Graphics</a><li>
-
+              <li class="menu-item"><a href="portfolio.html">Film</a></li> <!-- your closing li tags were missing the forward slash -->
+              <li class="menu-item"><a href="portfolio.html">Writing</a></li>
+              <li class="menu-item"><a href="portfolio.html">Graphics</a></li>
             </ul>
-          <li class="menu-item"><a href="blog.html">Blog</a><li>
+          </li> <!-- this closing li tag was not in the right spot -->
+          <li class="menu-item"><a href="blog.html">Blog</a></li>
           <li class="menu-item"><a href="about.html">About Me</a></li>
-          <li class="menu-item"><a href="contact.html">Contact</a><li>
+          <li class="menu-item"><a href="contact.html">Contact</a></li>
       </nav>
     </header>
 
     <main>
       <section class="content">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
 
-      <div>
-      <h1>Welcome to my Website and Blog</h1>
+        <div>
+          <h1>Welcome to my Website and Blog</h1>
 
-      <img class="homepage-image" src="images/homepage-image.png" alt="Graphic connecting logos with arrows">
+          <img class="homepage-image" src="images/homepage-image.png" alt="Graphic connecting logos with arrows">
 
+          <p>I’m a content creator with a passion for words and media, especially when combined to produce something truly remarkable. On this website, you can take a glimpse into my academic and professional worlds. As a fervent logophile, I’ve always been fascinated by the ability of words to transfix, transform, and transmit emotion to their recipients. It is my hope that you experience these verbs while looking around.</p>
 
-      <p>I’m a content creator with a passion for words and media, especially when combined to produce something truly remarkable. On this website, you can take a glimpse into my academic and professional worlds. As a fervent logophile, I’ve always been fascinated by the ability of words to transfix, transform, and transmit emotion to their recipients. It is my hope that you experience these verbs while looking around.</p>
+        </div>
 
+        <div>
+          <a class="button" href="about.html">More About Me</a>
+        </div>
 
+        <div>
+        <a class="button" href="portfolio.html">Newest Content</a>
+        </div>
 
-
-      </div>
-
-      <div>
-        <a class="button" href="about.html">More About Me</a>
-      </div>
-
-      <div>
-      <a class="button" href="portfolio.html">Newest Content</a>
-      </div>
-
-    </section>
+      </section>
     </main>
 
     <footer>Website by Tyler Wilson</footer>
