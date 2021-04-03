@@ -6,6 +6,10 @@ Universal Styling CSS
 -----------------------------------------
  */
 
+ @font-face{
+   font-family: 'Acme', sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
+
 * {
   border: 0;
   margin: 0;
@@ -14,16 +18,19 @@ Universal Styling CSS
 }
 
 p {
+  font-family: 'Josefin Sans', sans-serif;
   padding: 10px;
 }
 
 h1
 {
   color: white;
+  font-family: 'Acme', sans-serif;
   text-align: center;
 }
  .button {
    display: inline-block;
+   font-family: 'Acme', sans-serif;
    color: black;
    background-color: #edc7df;
    border-radius: 6px;
@@ -54,6 +61,7 @@ header {
   height: 18%;
   z-index: 999;
   position: fixed;
+
 }
 
 .content {
@@ -69,7 +77,7 @@ header {
 
 main {
     background-color: #6fc9c1;
-    padding-top: 170px; /* I removed the break tags and adding padding to move the main content down */
+    padding-top: 120px; /* I removed the break tags and adding padding to move the main content down */
 }
 
 footer {
@@ -88,9 +96,10 @@ footer {
   */
 
   .menu { /*changed the width to 80% and removed the max width. Displayed it inline-block so it shows up on the same line as your logo */
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
       display: inline-block;
+      text-align: center;
   }
 
   .menu ul {
@@ -137,13 +146,10 @@ footer {
 
   .logo { /* Removed float left. Changed the width to 5% */
     width: 5%;
+    float: left;
     margin: 5px 120px;
     display: inline-block;
   }
-
-
-
-
 
   /*
   -----------------------------------------
