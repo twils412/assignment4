@@ -34,6 +34,7 @@ h1
 }
  .button {
    display: inline-block;
+   margin-top: 100px;
    font-family: 'Acme', sans-serif;
    color: black;
    background-color: #edc7df;
@@ -42,7 +43,7 @@ h1
    max-width: 145px;
    min-width: 145px;
    text-align: center;
-   margin: 20px;
+   margin: 100px 30px;
    border: 4px solid black;
    text-decoration: none;
    transition: .3s;
@@ -91,6 +92,10 @@ footer {
   z-index: 5;
   padding: 25px;
   font-family: 'Acme', sans-serif;
+}
+
+.footer-style {
+  color: #7c5da7;
 }
  /*
  -----------------------------------------
@@ -169,7 +174,7 @@ footer {
   width: 300px;
   float: right;
   margin-top: 6px;
-  margin-right: 17px;
+  margin-right: 12px;
 }
 
 /*
