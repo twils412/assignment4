@@ -13,6 +13,10 @@ Universal Styling CSS
   box-sizing: border-box;
 }
 
+p {
+  padding: 10px;
+}
+
 h1
 {
   color: white;
@@ -48,17 +52,18 @@ header {
   padding: 10px;
   width: 100vw;
   height: 18%;
-  position: fixed;
   z-index: 999;
+  position: fixed;
 }
 
-.homepage-content {
+.content {
   background-color: #333333;
   color: white;
   margin: 0 auto;
-  max-width: 70%;
+  max-width: 78%;
   padding: 10px;
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
 
 }
 
@@ -81,6 +86,53 @@ footer {
  -----------------------------------------
   */
 
+  .menu {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .menu ul {
+    list-style: none;
+  }
+
+.sub-menu {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  z-index: 9999;
+  display: none;
+}
+
+.menu ul li a:hover {
+  background-color: #817fbc;
+  transition: .3s;
+}
+
+.menu ul li a:active {
+  background-color: #03adbf; }
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+  .menu > ul > li {
+    display: inline-block;
+    width: 10%;
+    color: white;
+    transition: .3s;
+    margin-bottom: 1px;
+    position: relative;
+    vertical-align: top;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    background-color: #111111;
+    color: white;
+    display: block;
+    padding: 10px;
+  }
+
   .logo {
     width: 80px;
     margin: 5px 120px;
@@ -89,20 +141,8 @@ footer {
   }
 
 
-  nav ul a {
-    display: inline-block;
-    width: 20%;
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    transition: .3s;
-    position: relative;
-    vertical-align: top;
-    }
-  nav u a:hover {
-    background-color: #817fbc;
-    transition: .3s;
-  }
+
+
 
   /*
   -----------------------------------------
@@ -112,5 +152,8 @@ footer {
   -----------------------------------------
    */
 .homepage-image {
-  width: 200px;
+  width: 300px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
 }
